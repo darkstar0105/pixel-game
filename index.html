@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <title>Web Rhythm Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="ui-container">
+        <h1>Web Rhythm Prototype</h1>
+        <input type="file" id="audio-upload" accept="audio/*,video/*"><br><br>
+        
+        <label>
+            <input type="checkbox" id="mobile-mode"> Mobile Mode (Max 2 simultaneous notes)
+        </label><br><br>
+
+        <button onclick="startGame('easy')">Play Easy</button>
+        <button onclick="startGame('medium')">Play Medium</button>
+        <button onclick="startGame('hard')">Play Hard</button>
+    </div>
+
+    <canvas id="gameCanvas" style="display: none;"></canvas>
+
+    <script src="game.js"></script>
+</body>
+</html>
