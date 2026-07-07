@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #111;
+    color: #fff;
+    font-family: sans-serif;
+    text-align: center;
+    overflow: hidden;
+    user-select: none;
+    -webkit-user-select: none;
+}
+
+#ui-container {
+    margin-top: 20vh;
+}
+
+button {
+    padding: 12px 24px;
+    font-size: 18px;
+    margin: 10px;
+    cursor: pointer;
+    background: #00adb5;
+    border: none;
+    color: white;
+    border-radius: 5px;
+}
+
+canvas {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+}
